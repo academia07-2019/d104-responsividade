@@ -44,3 +44,18 @@ nav div span{
 nav img{
     width: 35px;
 }
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    grid-area: section;
+}
+section .funcionarios{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section .funcionarios div img{
+    width: 100px;
+}
