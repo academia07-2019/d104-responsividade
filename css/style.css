@@ -1,0 +1,9 @@
+body{
+    display: grid;
+    grid-template-areas: 'nav'
+                        'banner'
+                        'main'
+                        'section'
+                        'footer';
+    grid-template-columns: 100vw;
+}
