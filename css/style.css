@@ -1,9 +1,33 @@
 body{
     display: grid;
-    grid-template-areas: 'nav'
+    grid-template-areas: 'navbar'
                         'banner'
                         'main'
                         'section'
                         'footer';
     grid-template-columns: 100vw;
+    margin: 0;
+}
+nav{
+    align-items: center;
+    background-color: #d3bbde;
+    display: flex;
+    grid-area: navbar;
+    height: 45px;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+nav div{
+    display: flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+}
+nav div span{
+    background-color: black;
+    height: 3px;
+    width: 30px;
+}
+nav img{
+    width: 35px;
 }
