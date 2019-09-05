@@ -14,6 +14,13 @@ header{
     grid-area: banner;
     height: 220px;
 }
+main{
+    background-color: lightgray;
+    grid-area: main;
+}
+main h1, main p{
+    text-align: center;
+}
 nav{
     align-items: center;
     background-color: #d3bbde;
